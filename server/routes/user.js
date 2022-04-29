@@ -2,6 +2,7 @@ const JWT_SECRET = "o7br@c0b4!@290y83r2@C$^#$%IHtqewuth3%#$&45th029t"
 const express = require('express');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+const cors = require('cors');
 
 //const CircularJSON = require('circular-json');
 const User = require('../../models/user');
